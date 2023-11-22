@@ -1,0 +1,14 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 2
+names: ['car', 'truck']
+
+roboflow:
+  api_key: mAhLFHVWc3PCK2TVTnCn
+  workspace: osada
+  project: vehiclesviewfromabove
+  version: 3
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/osada/vehiclesviewfromabove/dataset/3
